@@ -1,0 +1,5 @@
+{% load static %}
+<form class = "" action = '{% url "Libros_list" %}' method = "GET">
+  <input type = "text" name = "q" placeholder = "search" value = '{{request.GET.q}}'>
+  <!-- <input type = "submit" value = "search"> -->
+</form>
